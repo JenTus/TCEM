@@ -15,13 +15,13 @@ Acknowledgement: Cigdem Aslay.
 
 # Configuration of input files and parameters 
 
-**config.txt:**: specify the output folder, set $\epsilon = 0.2$, and $\ell = 1$. It is possible 
+**config.txt:**: specify the output folder, set &epsilon = 0.2, and l = 1. It is possible 
 to modify these parameters.
 
 ## Input file of the graph 
 Input directed graph file with one line per arc followed by two probabilities, the node ids should be mapped to 0 to n-1 where n is the total number of nodes. 
 
-format: node_u node_v $p^1_{uv}$ $p^{2}_{uv}$ 
+format: node_u node_v p^1_uv p^2_uv 
 
 ## compare file
 Indicate the selected red nodes ids and blue nodes ids. The file should contain two lines; the first 
@@ -29,9 +29,9 @@ line begins with `red nodes: `, and the second line begins with `blue nodes: `. 
 
 format:
 
-red nodes: $x_1$ $x_2$ ... $x_{k_r}$ 
+red nodes: x1 x2 ... xk_r 
 
-blue nodes: $y_1$ $y_2$ ... $y_{k_b}$ 
+blue nodes: y1 y2 ... yk_b 
 
 
 # Running from command line
