@@ -1,0 +1,2 @@
+red nodes: 1 2 8 10
+blue nodes: 3 4 5 8 12

@@ -1,0 +1,16 @@
+######################################## configuration file ########################################
+# all input files should be tab or space separated
+#
+#
+# location of output folder for exporting results, creates the folder if it doesn't exist or overwrites if exists
+outputFolder : output
+#
+#
+#
+# epsilon for RC-Estimation
+epsilon : 0.2
+#
+#
+# ell for delta of RC-Estimation (1 / n^l)
+ell : 1 
+#
