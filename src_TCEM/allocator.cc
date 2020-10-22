@@ -102,8 +102,8 @@ namespace _Cide{
         double lb = lowerBoundOPT();
         cout << "lower bound identified: " << lb << endl;
         
-        theta = (2 + 2/3.0 * epsilon) * n * (ell * log(n) + log(2) +  logP(n,k_r,tao)) / (epsilon * epsilon * lb);
-        //theta = (2 + 2/3.0 * epsilon) * n * (ell * log(n) + log(2) +  logcnk(n*(n-1), k_r*k_b)) / (epsilon * epsilon * lb);
+        theta = (8 + 4/3.0 * epsilon) * n * (ell * log(n) + log(2) +  logP(n,k_r,tao)) / (epsilon * epsilon * lb);
+        //theta = (2 + 2/3.0 * epsilon) * n * (ell * log(n) + log(2) +  logP(n,k_r,tao)) / (epsilon * epsilon * lb);
         
         cout << "final sample size " << theta << endl;
         generateRCSets(theta);
